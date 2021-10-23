@@ -1,0 +1,23 @@
+.request-select .menu-grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.request-select .menu-grid div {
+  background-color: #034f84;
+  color: white;
+  padding: 2em;
+  margin: 1em;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  height: 80%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.request-select .menu-grid div:hover {
+  background-color: #fcb07b;
+  color: black;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=request_selection.css.map */

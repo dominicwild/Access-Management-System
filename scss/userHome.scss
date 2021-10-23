@@ -1,0 +1,28 @@
+@import "master";
+
+.home {
+    h2 {
+        padding-top: 1rem;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+        div {
+            background-color: $primary-color;
+            color: white;
+            padding: 2em;
+            text-align: center;
+            margin: 1em;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        div:hover {
+            background-color: invert($primary-color);
+            color: black;
+            cursor: pointer;
+            //transform: invert($primary-color);
+        }
+    }
+}

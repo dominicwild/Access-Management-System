@@ -1,0 +1,16 @@
+.groups {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 2rem;
+}
+.groups .btn-groups {
+  text-align: right;
+}
+.groups .select-group {
+  height: 300px;
+}
+.groups .select-group select {
+  height: 100%;
+}
+
+/*# sourceMappingURL=group_index.css.map */

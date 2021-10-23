@@ -1,0 +1,22 @@
+.home h2 {
+  padding-top: 1rem;
+}
+.home .menu-grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.home .menu-grid div {
+  background-color: #034f84;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  margin: 1em;
+  transition: background-color 0.2s, color 0.2s;
+}
+.home .menu-grid div:hover {
+  background-color: #fcb07b;
+  color: black;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=userhome.css.map */

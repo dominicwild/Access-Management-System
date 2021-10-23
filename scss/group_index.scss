@@ -1,0 +1,14 @@
+.groups {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 2rem;
+    .btn-groups {
+        text-align: right;
+    }
+    .select-group {
+        height: 300px;
+        select {
+            height: 100%;
+        }
+    }
+}

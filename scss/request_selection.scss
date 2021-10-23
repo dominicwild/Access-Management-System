@@ -1,0 +1,28 @@
+@import "master";
+
+.request-select {
+    .menu-grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+        div {
+            background-color: $primary-color;
+            color: white;
+            padding: 2em;
+            margin: 1em;
+            text-align: center;
+            transition: background-color 0.2s, color 0.2s;
+            height: 80%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div:hover {
+            background-color: invert($primary-color);
+            color: black;
+            cursor: pointer;
+        }
+
+    }
+}
